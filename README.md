@@ -9,7 +9,7 @@ The general idea is to build a model capable of predicting Parkinson's Disease o
 
 ### Dataset (
 
-The original dataset "Archived-Data" contains around 400 files. Each file corresponds to an individual persons keystroke data and has the following columns: 
+The original dataset has to be download from source link above since its too big to be uploaded. "Archived-Data" contains around 400 files. Each file corresponds to an individual persons keystroke data and has the following columns: 
 
 UserKey: 10 character code for that user
 Date: YYMMDD
@@ -32,7 +32,7 @@ This output file will contain a CSV with 40 columns (features) that will be used
 
 The second part of the project requires the output of the first. But it will be already included. Its the "processed_17082024.txt". Change the input file directory in line:
 
-data = pd.read_csv("physionetdotorg/files/tappy/1/processed_17082024.csv") 
+        data = pd.read_csv("physionetdotorg/files/tappy/1/processed_17082024.csv") 
 
 and run the jupyter notebook
 
